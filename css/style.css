@@ -156,9 +156,23 @@ body
   margin: auto;
 }
 
-/* Hide the images by default */
+/* Hide the images */
 .Slideshow_fade {
     display: none;
+    -webkit-animation-name: Slideshow_fade;
+  -webkit-animation-duration: 1.6s;
+  animation-name: Slideshow_fade;
+  animation-duration: 1.3s;
+}
+
+@-webkit-keyframes fadeaway {
+  from {opacity: .3} 
+  to {opacity: 1}
+}
+
+@keyframes fadeaway {
+  from {opacity: .3} 
+  to {opacity: 1}
 }
 
 /* Next & previous buttons */
@@ -221,4 +235,5 @@ body
  .circle:hover {
   background-color: #133700;
 }
+
 
