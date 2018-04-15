@@ -146,3 +146,79 @@ body
 	margin:3em;
 	border: 1em #79d5b0;
 }
+
+* {box-sizing:border-box}
+
+/* slideshow container */
+.slideshow-main {
+  max-width: 62em;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.Slideshow_fade {
+    display: none;
+}
+
+/* Next & previous buttons */
+.forward, .backward {
+  cursor: crosshair;
+  position: absolute;
+  top: 5em;
+    border-radius: 0 0.2em 0.2em 0;
+   color: #40e0d0;
+  font-weight: 690;
+  font-size: 1.3em;
+  width: auto;
+  margin-top: -2em;
+  padding: 1.25em;
+  transition: 0.5s ease;
+}
+
+/* Move the next button to the right */
+.forward {
+  border-radius: 0.1% 0 0 0.1%;
+    right: 0;
+}
+
+/* On hover, add a color */
+.forward:hover, .backward:hover {
+  background-color: rgba(54, 69, 79,0.6);
+}
+
+/* Caption words */
+.text {
+  color: #928272;
+  font-size: 1.75em;
+  padding: 0.6em 0.4em;
+  position: absolute;
+  bottom: 0.25%;
+  width: 99%;
+  text-align: center;
+}
+
+/* Numbers */
+.number_index {
+  color: #c2d2e2;
+    top: 0;
+  font-size: 1.64em;
+  padding: 0.55em 0.45em;
+  position: absolute;
+}
+
+/* The dots/bullets/indicators */
+.circle {
+  cursor: crosshair;
+  height: 1.33em;
+  width: 1.30em;
+  margin: 0 0.19%;
+  background-color: #113355;
+  border-radius: 48%;
+  display: inline-block;
+  transition: background-color 0.7s ease;
+}
+ .circle:hover {
+  background-color: #133700;
+}
+
