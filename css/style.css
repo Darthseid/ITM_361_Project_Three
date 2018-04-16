@@ -1,4 +1,3 @@
-
 #galleries 
 {
     background-color:pink;
@@ -173,6 +172,7 @@ body
   bottom: -11.25%;
   width: 99%;
   text-align: center;
+  padding: 0.3em;
 }
 
 .circles
@@ -219,7 +219,7 @@ body
 }
     #sale  
     {
-    background-image: url("media/galleria/neighborhood.jpg");
+    background-image: url("../media/galleria/neighborhood.jpg");
 	     height: 100%; 
 
     
@@ -229,4 +229,6 @@ body
     #ads
     {
 color:rgb(2,200,20);
+ font-size: 1.5em;
+ padding: 0.3em;
 	   }
