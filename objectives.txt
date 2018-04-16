@@ -1,0 +1,8 @@
+1. Create a slideshow with working HTML, CSS, and Javascript.
+2. Add titles to all images.
+3. Design website to work with small internet devices.
+4. Create a two paragraph memo about this project and my progress in this semester.
+5. Make sure all pages pass validation.
+6. Add Poster to slideshow.
+7. Add fallback in case slideshow does not work.
+8. Make sure the website works on all browsers.

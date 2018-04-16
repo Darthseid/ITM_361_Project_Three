@@ -1,4 +1,3 @@
-
 #galleries 
 {
     background-color:pink;
@@ -15,7 +14,7 @@ color: lightblue;
 
 #number:hover
 {
-    text-decoration:underline;
+    letters-decoration:underline;
 }
 #email
 {
@@ -23,7 +22,7 @@ color:blue;
 }
 #email:hover
 {
-    text-decoration:underline;
+    letters-decoration:underline;
 }
 #career
 {
@@ -31,7 +30,7 @@ color: darkblue;
 }
 #career:hover
 {
-    text-decoration:underline;
+    letters-decoration:underline;
 }
 .Address
 {
@@ -44,8 +43,9 @@ width:50%;
 }
 .show
 {
-width:30%;
-	margin-left:1%;
+	position:absolute;
+width:65%;
+right: 600px;
 }
 .front
 {
@@ -63,7 +63,8 @@ width:30%;
     50%  {background-color:#ff0000;}
     100% {background-color:#ffffff;}
 }
-h1 {
+h1
+{
 	font-family:'Mina',Impact,sans-serif;
 	font-size:2.5em;
 	font-style:normal;
@@ -71,7 +72,8 @@ h1 {
 	font-weight:normal;
 	  margin:1%;
 }
-h2 {
+h2 
+{
 	font-family:"Nanum Gothic",Times New Roman,serif;
 	font-size:2.1em;
 	font-style:inherit;
@@ -79,14 +81,16 @@ h2 {
 	font-weight:normal;
 	padding:0em 0em 0.2em 0.75em;
 }
-h3{
+h3
+{
 	font-size: 1.6em;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: normal;
 	padding: 0em 0em 0em 0.75em;
 }
-p {
+p
+{
 	font-family:'Barlow',Helvetica,sans-serif;
 	font-size:1.1em;
 	font-style:normal;
@@ -94,22 +98,25 @@ p {
 	font-weight:lighter;
 	margin:1em;
 }
-ul {
+ul
+{
     overflow:hidden;
 }
-nav ul li {
+nav ul li 
+{
 	font-size: 1.3em;
 	display: inline-block;
 	padding: 0.1%;
 	background-color: yellow;
 	border-radius: 0.2%;
 }
-li a {
+li a
+{
     display:block;
     color:gray;
     text-align:center;
   margin-right:0.75em; 
-    text-decoration:none;
+    letters-decoration:none;
 }
 li a:hover
 {
@@ -146,3 +153,82 @@ body
 	margin:3em;
 	border: 1em #79d5b0;
 }
+
+.sliding {display: none;}
+
+
+.slideshow-main 
+{
+  max-width: 62em;
+  position: relative;
+  margin: auto;
+}
+
+.letters
+{
+  color: #ff8272;
+  font-size: 1.75em;
+  position: absolute;
+  bottom: -11.25%;
+  width: 99%;
+  text-align: center;
+  padding: 0.3em;
+}
+
+.circles
+{
+  cursor: crosshair;
+  height: 1.33em;
+  width: 1.30em;
+  margin: 0 0.19%;
+  background-color: #113fff;
+  border-radius: 48%;
+  display: inline-block;
+  transition: background-color 0.7s ease;
+}
+
+.activated
+{
+ background-color: #133700;
+}
+
+.fadeaway 
+{
+    display: none;
+    -webkit-animation-name: Slideshow_fadeaway;
+  -webkit-animation-duration: 1.6s;
+  animation-name: Slideshow_fadeaway;
+  animation-duration: 1.3s;
+}
+
+@-webkit-keyframes fadeaway
+{
+  from {opacity: .3} 
+  to {opacity: 1}
+}
+
+@keyframes fadeaway 
+{
+   from {opacity: .3} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px)
+{
+  .letters {font-size: 11px}
+}
+    #sale  
+    {
+    background-image: url("../media/galleria/neighborhood.jpg");
+	     height: 100%; 
+
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    #ads
+    {
+color:rgb(2,200,20);
+ font-size: 1.5em;
+ padding: 0.3em;
+	   }
