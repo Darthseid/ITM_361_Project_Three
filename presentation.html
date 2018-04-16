@@ -5,11 +5,12 @@
 		<title>Jared's Slideshow</title>
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/normalize.css" id="normal">	
-    <script src="script.js"></script>
+    <script src="js/script.js" type="text/javascript"></script>
+    <link href="https://fonts.googleapis.com/css?family=Do+Hyeon|Karla" rel="stylesheet">
 </head>
-<body id = "sale">
+<body id = "sale" onload="slidechange();">
 <header>
-    <nav>
+    <nav id = "Garage">
 	  <ul>
 	    <li><a href="index.html">Home Page</a></li>
 		<li><a href="resume.html">Professional Resume</a></li>
@@ -69,29 +70,7 @@
       <span class="circles"></span>
         <span class="circles"></span>
 </div>
-<script>
-	var slide_number = 0;
-slidechange();
-function slidechange()
-{
-    var i;
-    var slides = document.getElementsByClassName("sliding");
-    var circle = document.getElementsByClassName("circles");
-    for (i = 0; i < slides.length; i++) 
-    {
-       slides[i].style.display = "none";  
-    }
-    slide_number++;
-    if (slide_number > slides.length) {slide_number = 1}    
-    for (i = 0; i < circle.length; i++) 
-    {
-        circle[i].className = circle[i].className.replace(" activated", "");
-    }
-    slides[slide_number-1].style.display = "block";  
-    circle[slide_number-1].className += " activated";
-    setTimeout(slidechange, 2500); // Change image every 2 and a half seconds
-}
-	</script>
+
 </body>
 </html> 
-  
+
