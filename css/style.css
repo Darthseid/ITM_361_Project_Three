@@ -44,8 +44,8 @@ width:50%;
 .show
 {
 	position:absolute;
-width:65%;
-right: 600px;
+width:67%;
+right: 37em;
 }
 
 .front
@@ -183,11 +183,12 @@ body
 
 .circles
 {
+
   cursor: crosshair;
   height: 1.33em;
   width: 1.30em;
-  margin: 0 0.19%;
-  background-color: #113fff;
+  margin: 0% 0.19%;
+  background-color: #11ffff;
   border-radius: 48%;
   display: inline-block;
   transition: background-color 0.7s ease;
@@ -195,7 +196,7 @@ body
 
 .activated
 {
- background-color: #133700;
+ background-color: #133000;
 }
 
 .fadeaway 
@@ -231,3 +232,9 @@ color:rgb(2,200,20);
  padding: 0.3em;
  font-family: 'Do Hyeon', Georgia, sans-serif;
 	   }
+	   #Garage
+	   {
+margin:1% 1% 1% 2%;
+ list-style-type:square;
+ 	font-family:"Volkorn SC",Verdana,sans-serif;
+		  }
