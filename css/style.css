@@ -14,7 +14,7 @@ color: lightblue;
 
 #number:hover
 {
-    letters-decoration:underline;
+   text-decoration:underline;
 }
 #email
 {
@@ -22,7 +22,7 @@ color:blue;
 }
 #email:hover
 {
-    letters-decoration:underline;
+    text-decoration:underline;
 }
 #career
 {
@@ -30,7 +30,7 @@ color: darkblue;
 }
 #career:hover
 {
-    letters-decoration:underline;
+    text-decoration:underline;
 }
 .Address
 {
@@ -47,15 +47,16 @@ width:50%;
 width:65%;
 right: 600px;
 }
+
 .front
 {
 	font-size:1.3em;
 	color:#000000;
     animation-name: txt;
-    animation-duration:14s;
-    animation-iteration-count 4;
+    animation-duration:24s;
     animation-delay:1.0s;
 }
+
 @keyframes txt 
 {
     0%   {background-color:#0000ff;}
@@ -116,7 +117,7 @@ li a
     color:gray;
     text-align:center;
   margin-right:0.75em; 
-    letters-decoration:none;
+    text-decoration:none;
 }
 li a:hover
 {
@@ -135,6 +136,10 @@ h4
     vertical-align:baseline;
     margin-bottom:1%;
     margin-left:0.5%
+}
+h5
+{
+
 }
 audio
 {
@@ -170,6 +175,7 @@ body
   font-size: 1.75em;
   position: absolute;
   bottom: -11.25%;
+  font-family: 'Karla', Comic Sans MS, serif;
   width: 99%;
   text-align: center;
   padding: 0.3em;
@@ -195,16 +201,8 @@ body
 .fadeaway 
 {
     display: none;
-    -webkit-animation-name: Slideshow_fadeaway;
-  -webkit-animation-duration: 1.6s;
-  animation-name: Slideshow_fadeaway;
+  animation-name: slideshow_fadeaway;
   animation-duration: 1.3s;
-}
-
-@-webkit-keyframes fadeaway
-{
-  from {opacity: .3} 
-  to {opacity: 1}
 }
 
 @keyframes fadeaway 
@@ -231,4 +229,5 @@ body
 color:rgb(2,200,20);
  font-size: 1.5em;
  padding: 0.3em;
+ font-family: 'Do Hyeon', Georgia, sans-serif;
 	   }
