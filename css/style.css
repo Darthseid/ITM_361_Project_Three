@@ -223,7 +223,7 @@ font-size:150%;
 }
 
 @media screen and (max-width: 500px)
-{
+{ 
 
    li {
 	   font-size: 1.1em;
@@ -232,7 +232,13 @@ font-size:150%;
     border-bottom: none;
     line-height: 1em;   
   }
+#logo
+{
+	width:75%;
+	margin:0.5em;
+}
 
+}
     #sale  
     {
     background-image: url("../media/galleria/neighborhood.jpg");
