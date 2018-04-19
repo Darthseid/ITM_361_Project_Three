@@ -1,4 +1,3 @@
-3. Design website to work with small internet devices.
 4. Create a two paragraph memo about this project and my progress in this semester.
 5. Make sure all pages pass validation.
 6. Add Poster to slideshow.
