@@ -197,9 +197,10 @@ body
 }
 
 @media only screen and (min-width: 300px)
-							{
 {
-  .letters 
+  .letters 	
+  {
+
   
   font-size: 11px
 }
@@ -251,7 +252,7 @@ right: 33em;
 margin: 10% 0% 0% 30%
 }
 
-						}
+					}						
 @media screen and (max-width: 500px)
 { 
 
