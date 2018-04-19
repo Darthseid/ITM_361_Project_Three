@@ -1,4 +1,3 @@
-2. Add titles to all images.
 3. Design website to work with small internet devices.
 4. Create a two paragraph memo about this project and my progress in this semester.
 5. Make sure all pages pass validation.
@@ -6,4 +5,4 @@
 7. Add fallback in case slideshow does not work.
 8. Make sure the website works on all browsers.
 9. Make the slide transition more consistent.
-10. Add a possible scroling page.
+10. Add a possible scrolling page.
