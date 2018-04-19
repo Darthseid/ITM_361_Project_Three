@@ -1,5 +1,4 @@
-6. Add Poster to slideshow.
+6. Add poster to presentation.
 7. Add fallback in case slideshow does not work.
-8. Make sure the website works on all browsers.
 9. Make the slide transition more consistent.
 10. Add a possible scrolling page.
