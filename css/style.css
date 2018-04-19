@@ -57,13 +57,6 @@ right: 37em;
     animation-delay:1.0s;
 }
 
-@keyframes txt 
-{
-    0%   {background-color:#0000ff;}
-    25%  {background-color:#00ff00;}
-    50%  {background-color:#ff0000;}
-    100% {background-color:#ffffff;}
-}
 h1
 {
 	font-family:'Mina',Impact,sans-serif;
@@ -108,13 +101,12 @@ nav ul li
 	font-size: 1.3em;
 	display: inline-block;
 	padding: 0.1%;
-	background-color: yellow;
 	border-radius: 0.2%;
 }
 li a
 {
     display:block;
-    color:gray;
+    color:#8b0000;
     text-align:center;
   margin-right:0.75em; 
     text-decoration:none;
@@ -128,14 +120,6 @@ li
 margin:1% 1% 1% 2%;
  list-style-type:square;
  	font-family:"Volkorn SC",Verdana,sans-serif;
-}
-h4
-{
-    font-size:400%;
-    line-height:0.95em;
-    vertical-align:baseline;
-    margin-bottom:1%;
-    margin-left:0.5%
 }
 h5
 {
@@ -212,9 +196,84 @@ body
   to {opacity: 1}
 }
 
-@media only screen and (max-width: 300px)
+@media only screen and (min-width: 300px)
 {
-  .letters {font-size: 11px}
+  .letters 	
+  {
+
+  
+  font-size: 11px
+}
+
+h4
+{
+    font-size:265%;
+    line-height:0.75em;
+    vertical-align:baseline;
+  margin: 0.425%;
+}
+
+.employment
+{
+ font-size:150%;
+}
+.Address
+{
+font-size:150%;
+}
+audio
+{
+display: none;
+}
+
+nav ul li 
+{
+	font-size: 2.0em;
+	display: inline-block;
+	padding: 0.01%;
+	border-radius: 0.2%;
+}
+
+#quoted
+{
+	font-size:0.7em;
+}
+.social
+{
+width:80%;
+	margin-left:1%;
+}
+
+.show
+{
+	
+width:39%;
+right: 33em;
+margin: 10% 0% 0% 30%
+}
+
+					}						
+@media screen and (max-width: 500px)
+{ 
+
+   li {
+	   font-size: 1.1em;
+    padding: 0.5%;
+    width: 100%;
+    border-bottom: none;
+    line-height: 1em;   
+  }
+#logo
+{
+	width:75%;
+	margin:0.5em;
+}
+   #ads
+    {
+ font-size: 1.0em;
+ margin: 0.1em;
+	   }
+
 }
     #sale  
     {
@@ -224,6 +283,30 @@ body
     
     background-repeat: no-repeat;
     background-size: cover;
+}
+@media screen and (max-width: 960px) 
+{
+
+@keyframes txt 
+{
+    0%   {background-color:#0000ff;}
+    25%  {background-color:#00ff00;}
+    50%  {background-color:#ff0000;}
+    100% {background-color:#ffffff;}
+}
+h4
+{
+    font-size:400%;
+    line-height:0.95em;
+    vertical-align:baseline;
+    margin-bottom:1%;
+    margin-left:0.5%
+}
+  nav ul li
+  {
+	background-color: yellow;
+	color:gray;
+}
 }
     #ads
     {
