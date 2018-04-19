@@ -57,13 +57,6 @@ right: 37em;
     animation-delay:1.0s;
 }
 
-@keyframes txt 
-{
-    0%   {background-color:#0000ff;}
-    25%  {background-color:#00ff00;}
-    50%  {background-color:#ff0000;}
-    100% {background-color:#ffffff;}
-}
 h1
 {
 	font-family:'Mina',Impact,sans-serif;
@@ -128,14 +121,6 @@ li
 margin:1% 1% 1% 2%;
  list-style-type:square;
  	font-family:"Volkorn SC",Verdana,sans-serif;
-}
-h4
-{
-    font-size:400%;
-    line-height:0.95em;
-    vertical-align:baseline;
-    margin-bottom:1%;
-    margin-left:0.5%
 }
 h5
 {
@@ -212,10 +197,39 @@ body
   to {opacity: 1}
 }
 
-@media only screen and (max-width: 300px)
+@media only screen and (min-width: 300px)
 {
-  .letters {font-size: 11px}
+  .letters 
+  {
+  font-size: 11px
 }
+
+h4
+{
+    font-size:300%;
+    line-height:0.75em;
+    vertical-align:baseline;
+  margin: 0.425%;
+}
+
+.employment
+{
+ font-size:150%;
+}
+
+}
+
+@media screen and (max-width: 500px)
+{
+
+   li {
+	   font-size: 1.1em;
+    padding: 0.5%;
+    width: 100%;
+    border-bottom: none;
+    line-height: 1em;   
+  }
+
     #sale  
     {
     background-image: url("../media/galleria/neighborhood.jpg");
@@ -224,6 +238,26 @@ body
     
     background-repeat: no-repeat;
     background-size: cover;
+}
+@media screen and (min-width: 960px) 
+{
+
+@keyframes txt 
+{
+    0%   {background-color:#0000ff;}
+    25%  {background-color:#00ff00;}
+    50%  {background-color:#ff0000;}
+    100% {background-color:#ffffff;}
+}
+h4
+{
+    font-size:400%;
+    line-height:0.95em;
+    vertical-align:baseline;
+    margin-bottom:1%;
+    margin-left:0.5%
+}
+
 }
     #ads
     {
